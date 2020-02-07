@@ -3,17 +3,17 @@ var router = express.Router();
 
 /* GET animal listing. */
 router.get('/', function (req, res, next) {
-    res.send('respond with a resource');
+    res.send('get animal');
 });
 
 /* POST animal. */
 router.post('/', function (req, res, next) {
-    res.send('respond with a resource');
+    res.send('add animal');
 });
 
 /* PUT animal by id. */
 router.put('/:id', function (req, res, next) {
-    res.send('respond with a resource');
+    res.send('update animal');
 });
 
 module.exports = router;
